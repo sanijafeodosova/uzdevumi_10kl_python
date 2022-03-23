@@ -3,4 +3,4 @@
 # laukums = 2 * (3.14 * râdiuss * râdiuss) + augstums * (2 * 3.14 * râdiuss)
 
 
-print("Area: ", area)
+
