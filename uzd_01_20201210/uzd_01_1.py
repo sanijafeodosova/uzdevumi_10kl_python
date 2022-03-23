@@ -1,6 +1,2 @@
-# Uzdevums: 01-1: Izveidot programmu, kas prasa lietotâjam ievadît skaitli n, tad programma aprçíina n+nn+nnn. Rezultâts tiek parâdîts konsolç.
+# Uzdevums: 01-1: Izveidot programmu, kas prasa lietotÃ¢jam ievadÃ®t skaitli n, tad programma aprÃ§Ã­ina n+nn+nnn. RezultÃ¢ts tiek parÃ¢dÃ®ts konsolÃ§.
 
-sk = input("Enter number: ")
-sum = int(sk) + int(sk*2) + int(sk*3)
-print(sk,"+",sk*2,"+",sk*3,"=",sum)
-#print(sk+"+"+sk*2+"+"+sk*3+"="+str(sum)) #bez atstarpçm
