@@ -1,15 +1,5 @@
-# Kâda valsts nolçma pâriet uz jaunu naudas sistçmu. Vecajâ sistçmâ bija trîs naudas vienîbas: dâlderis, grasis, santîms. Naudas vçrtîbas norâdîtas zemâk.
-# 1 dâlderis = 37 graği
-# 1 grasis = 162 santîmi
-# Jaunajâ naudas sistçmâ paliek tikai santîmi un dâlderi. Santîms saglabâ savu vçrtîbu, bet 1 dâlderis bûs vienâds ar 100 santîmiem. Izveidot programmu, kas pârveidotu vecâs sistçmas naudu uz jaunu. Lietotâjam prasa ievadît vecâs sistçmas dâlderus, grağus un santîmus. Tiek aprçíinâts jaunâs sistçmas dâlderu un grağu daudzums. Rezultâts tiek parâdîts konsolç.
+# KÃ¢da valsts nolÃ§ma pÃ¢riet uz jaunu naudas sistÃ§mu. VecajÃ¢ sistÃ§mÃ¢ bija trÃ®s naudas vienÃ®bas: dÃ¢lderis, grasis, santÃ®ms. Naudas vÃ§rtÃ®bas norÃ¢dÃ®tas zemÃ¢k.
+# 1 dÃ¢lderis = 37 graÃ°i
+# 1 grasis = 162 santÃ®mi
+# JaunajÃ¢ naudas sistÃ§mÃ¢ paliek tikai santÃ®mi un dÃ¢lderi. SantÃ®ms saglabÃ¢ savu vÃ§rtÃ®bu, bet 1 dÃ¢lderis bÃ»s vienÃ¢ds ar 100 santÃ®miem. Izveidot programmu, kas pÃ¢rveidotu vecÃ¢s sistÃ§mas naudu uz jaunu. LietotÃ¢jam prasa ievadÃ®t vecÃ¢s sistÃ§mas dÃ¢lderus, graÃ°us un santÃ®mus. Tiek aprÃ§Ã­inÃ¢ts jaunÃ¢s sistÃ§mas dÃ¢lderu un graÃ°u daudzums. RezultÃ¢ts tiek parÃ¢dÃ®ts konsolÃ§.
 
-dald = int(input("Dâlderi: "))
-gras = int(input("Graği: "))
-cents = int(input("Santîmi: "))
-
-cents = cents + gras*162 + dald*37*162
-dald2 = cents//100
-cents2 = cents - dald2*100
-
-print("Jaunie dâlderi: ", dald2)
-print("Jaunie santîmi: ", cents2)
