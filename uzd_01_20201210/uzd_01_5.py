@@ -1,6 +1,2 @@
-# Zemniekam ir govis, cûkas un vistas. Govîm un cûkâm ir pa 4 kâjâm, vistâm – 2. Izveidot programmu, kas prasa lietotâjam ievadît cûku, govju un vistu skaitu. Tiek aprçíinâts kopçjais kâju daudzums. Rezultâts tiek izvadîts konsolç.
+# Zemniekam ir govis, cÃ»kas un vistas. GovÃ®m un cÃ»kÃ¢m ir pa 4 kÃ¢jÃ¢m, vistÃ¢m â€“ 2. Izveidot programmu, kas prasa lietotÃ¢jam ievadÃ®t cÃ»ku, govju un vistu skaitu. Tiek aprÃ§Ã­inÃ¢ts kopÃ§jais kÃ¢ju daudzums. RezultÃ¢ts tiek izvadÃ®ts konsolÃ§.
 
-pigs = int(input("Amount of pigs: "))
-cows = int(input("Amount of cows: "))
-chicks = int(input("Amount of chickens: "))
-print("Amount of legs: ", pigs*4 + cows*4 + chicks*2)
